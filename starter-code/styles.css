@@ -1,0 +1,31 @@
+* {
+  font-family: 'Red Hat Display', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #fafafa;
+  color: #87879d;
+}
+
+.logo {
+  margin: 48px 128px;
+}
+
+.hero {
+  width: 110%;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  /* or 110% */
+
+  text-align: center;
+
+  color: #28283d;
+}
