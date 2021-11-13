@@ -29,3 +29,34 @@ h1 {
 
   color: #28283d;
 }
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1,
+.button2 {
+  padding: 16px 40px;
+  color: white;
+  border-radius: 29px;
+}
+
+.button1 {
+  background-color: #4d96a9;
+  margin: 32px 0px 16px 0px;
+}
+
+.button2 {
+  background-color: #855fb1;
+}
+
+.button1:hover {
+  background-color: #71c0d4;
+}
+
+.button2:hover {
+  background-color: #b18bdd;
+}
