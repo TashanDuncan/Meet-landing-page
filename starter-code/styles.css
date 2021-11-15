@@ -30,7 +30,8 @@ h1 {
   color: #28283d;
 }
 
-.buttons, .number_container {
+.buttons,
+.number_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,25 +56,36 @@ h1 {
 
 .button1:hover {
   background-color: #71c0d4;
+  cursor: pointer;
 }
 
 .button2:hover {
   background-color: #b18bdd;
+  cursor: pointer;
 }
 
-.number_container{
-    width: 56px;
-height: 140px;
-margin: 64px auto;
+.number_container {
+  width: 56px;
+  height: 140px;
+  margin: 64px auto;
 }
-.number{
-    padding: 15px 19px;
-    border: 1px solid rgba(135, 135, 157, .25);
-    border-radius: 50%;
-    font-weight: 900;
+.number {
+  padding: 15px 19px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 50%;
+  font-weight: 900;
 }
 
-.line{
-    border-left: 1px solid rgba(135, 135, 157, .25);
-    height: 84px;
+.line {
+  border-left: 1px solid rgba(135, 135, 157, 0.25);
+  height: 84px;
+}
+
+.image_top {
+  margin-bottom: 24px;
+}
+
+.image_section img {
+  border-radius: 20px;
+
 }
