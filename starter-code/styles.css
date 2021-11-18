@@ -16,7 +16,7 @@ body {
 }
 
 .no_margin {
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 h1,
@@ -37,13 +37,13 @@ h2 {
   margin: 24px 0px 32px 0px;
 }
 
-.container{
+.container {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-.small_text{
+.small_text {
   margin: 0 auto;
 }
 
@@ -53,15 +53,14 @@ h2 {
   overflow: hidden;
 }
 
-.wrapper{
+.wrapper {
   overflow: hidden;
   width: 105%;
 }
-.wrapper img{
-position: relative;
-right: 10px;
+.wrapper img {
+  position: relative;
+  right: 10px;
 }
-
 
 .buttons,
 .number_container {
@@ -118,15 +117,18 @@ right: 10px;
   height: 84px;
 }
 
-.image_top {
-  margin-bottom: 24px;
-}
-
 .image_section {
   margin-bottom: 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 24px;
+  column-gap: 25px;
+  width: 90%;
 }
-.image_section img {
+
+.image img {
   border-radius: 20px;
+  width: 100%;
 }
 
 .overline {
