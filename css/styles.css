@@ -204,7 +204,7 @@ footer p {
   .image_section {
     margin-bottom: 48px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 11px;
+    column-gap: 30px;
     width: 90%;
   }
 
