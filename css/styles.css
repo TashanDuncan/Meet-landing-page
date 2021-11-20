@@ -83,6 +83,7 @@ h2 {
   padding: 16px 40px;
   color: white;
   border-radius: 29px;
+  font-weight: 900;
 }
 
 .button1 {
@@ -104,6 +105,14 @@ h2 {
 .button3:hover {
   background-color: #b18bdd;
   cursor: pointer;
+}
+
+.version1{
+  color: #8FE3F9;
+}
+
+.version2{
+  color: #D9B8FF;
 }
 
 .number_container {
@@ -211,9 +220,27 @@ footer p {
   footer p {
     margin-bottom: 40px;
   }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (min-width: 1224px) {
+
+  h1{
+    font-size: 64px;
+    line-height: 64px    ;
+  }
+
+  .desktop_container{
+    width: 30%;
+  }
+
   .hero_desktop{
     display: block;
    
