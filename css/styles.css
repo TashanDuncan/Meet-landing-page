@@ -237,6 +237,10 @@ footer p {
     line-height: 64px    ;
   }
 
+  body{
+    font-size: 18px;
+  }
+
   .desktop_container{
     width: 30%;
   }
@@ -267,7 +271,6 @@ footer p {
     width: 80%;
   }
   .desktop_text{
-    width: 50%;
     margin: 0 auto;
   }
 
