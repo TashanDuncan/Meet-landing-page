@@ -16,7 +16,7 @@ body {
 }
 
 .no_margin {
-  margin: 0 auto;
+  margin: 0 ;
 }
 
 h1,
@@ -47,10 +47,14 @@ h2 {
   margin: 0 auto;
 }
 
-.hero {
+.hero_mobile {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
+}
+
+.hero_desktop{
+  display: none;
 }
 
 .wrapper {
@@ -207,4 +211,66 @@ footer p {
   footer p {
     margin-bottom: 40px;
   }
+}
+
+@media only screen and (min-width: 1224px) {
+  .hero_desktop{
+    display: block;
+   
+  }
+  .hero_mobile{
+   display: none;
+  }
+
+  .desktop_group{
+    display: flex;
+    overflow: hidden;
+  }
+
+  .wrapper .right{
+    right: 0px;
+    left: 32px
+  }
+  .wrapper .left{
+
+    right: 32px;
+  }
+
+  .image_section {
+    width: 80%;
+  }
+  .desktop_text{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  footer {
+    background-image: linear-gradient(
+        0deg,
+        rgba(77, 150, 169, 0.9),
+        rgba(77, 150, 169, 0.9)
+      ),
+      url(../assets/desktop/image-footer.jpg);
+  }
+
+  footer .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer h2 {
+    padding: 0px;
+    width: 20%;
+    text-align: left;
+  }
+  
+  footer p {
+    margin-bottom: 0px;
+    width: 30%;
+    text-align: left;
+  }
+  
+
 }
