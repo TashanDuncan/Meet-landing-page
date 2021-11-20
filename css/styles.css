@@ -38,7 +38,7 @@ h2 {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
@@ -62,6 +62,9 @@ h2 {
   right: 10px;
 }
 
+.buttons {
+  margin: 32px 0px 0px 0px;
+}
 .buttons,
 .number_container {
   display: flex;
@@ -80,7 +83,7 @@ h2 {
 
 .button1 {
   background-color: #4d96a9;
-  margin: 32px 0px 16px 0px;
+  margin-bottom: 16px;
 }
 
 .button2,
@@ -153,7 +156,7 @@ footer {
       rgba(77, 150, 169, 0.9),
       rgba(77, 150, 169, 0.9)
     ),
-    url(./assets/mobile/image-footer.jpg);
+    url(../assets/mobile/image-footer.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,6 +164,7 @@ footer {
 
 footer h2 {
   color: #fafafa;
+  font-size: 40px;
   padding: 92px 0px 24px 0px;
 }
 
@@ -171,4 +175,36 @@ footer p {
   text-align: center;
   color: #fafafa;
   margin-bottom: 32px;
+}
+
+/* MEDIA Queries */
+
+@media only screen and (min-width: 768px) {
+  .buttons {
+    flex-direction: row;
+  }
+
+  .button1 {
+    margin: 0px 16px 0px 0px;
+  }
+
+  .image_section {
+    margin-bottom: 48px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 11px;
+    width: 90%;
+  }
+
+  footer {
+    background-image: linear-gradient(
+        0deg,
+        rgba(77, 150, 169, 0.9),
+        rgba(77, 150, 169, 0.9)
+      ),
+      url(../assets/tablet/image-footer.jpg);
+  }
+
+  footer p {
+    margin-bottom: 40px;
+  }
 }
